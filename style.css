@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: url(./lol.jpg) no-repeat center;
+    background-size: cover;
+    color: white;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.655);
+}
+
+.menu {
+    display: flex;
+}
+
+.menu h1 {
+    width: 50%;
+    height: 60px;
+    margin: 0px 0 0 40px;
+    padding: 20px 0px;
+}
+
+.menu ul {
+    width: 50%;
+    display: flex;
+    list-style: none;
+    color: white;
+    padding: 20px 0 0 200px;
+}
+
+.menu ul li {
+    margin: 0 15px;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    height: calc(100vh - 60px);
+    padding: 80px 350px;
+}
+
+header title {
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: white;
+    margin: 20px 0;
+}
+
+button {
+    background-color: white;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    width: 150px;
+    height: 45px;
+    color: black;
+    cursor: grabbing;
+    border: none;
+}
+
+span {
+    color: yellow;
+}
+
+.main {
+    color: orange;
+}
+
+.right {
+    color: aqua;
+}
